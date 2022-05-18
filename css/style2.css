@@ -1,0 +1,126 @@
+ @font-face {
+
+семейство шрифтов: "Exo2-Medium";
+ src: url("../fonts/Exo2-Medium.ttf");
+}
+@font-face {
+font-family: "Exo2-MediumItalic";
+ src: url("../fonts/Exo2-MediumItalic.ttf");
+}
+@font-face {
+font-family: "Exo2-Bold";
+ src: url("../fonts/Exo2-Bold.ttf");
+}
+@font-face {
+font-family: "Exo2-BoldItalic";
+ src: url("../fonts/Exo2-BoldItalic.ttf");
+}
+* {
+margin: 0;
+padding: 0;
+}
+body {
+background-image: url("../img/white-needle.png");
+}
+#block-body {
+ширина: 1035px;
+ маржа: 5px auto;
+ высота: авто;
+}
+заголовок {
+ширина: 1035px; 
+ высота: 80px;
+ цвет фона: черный;
+}
+#block-content {
+width: 1035px;
+ высота: авто;
+ минимальная высота: 500px;
+}
+.логотип {
+ширина: 200px;
+ поплавок: левый;
+ высота: 80px;
+}
+.логотип a {
+дисплей: блок;
+ поле слева: 15px;
+ маржа-топ: 10px;
+ семейство шрифтов: "Exo2-Bold", sans-serif;
+ размер шрифта: 28px;
+ цвет: #b2aeb2;
+ текстовое оформление: нет;
+ курсор: указатель;
+}
+.use {
+color: #aa064b;
+ 
+}
+.web {
+цвет: #429595; 
+}
+.logo p {
+margin-left: 20px;
+ margin-top: 2px;
+ маржа-дно: 5px;
+ семейство шрифтов: "Exo2-Medium", sans-serif;
+ размер шрифта: 13px;
+ цвет: белый;
+}
+.верхнее меню {
+ ширина: 685px;
+ высота: 80px;
+ поплавок: левый;
+}
+.верхнее меню ul li {
+ стиль списка: нет;
+ поплавок: левый;
+ выравнивание текста: по центру;
+}
+.верхнее меню ul li a {
+display: block;
+ ширина: 171px;
+ текстовое оформление: нет;
+ семейство шрифтов: "Exo2-Medium", sans-serif;
+ размер шрифта: 17px;
+ цвет: белый;
+ высота: 55px;
+ padding-top: 25px;
+ курсор: указатель;
+}
+.верхнее меню ul li a:hover {
+transition: all 0.5 s ease;
+ -webkit-переход: все 0,5 с легкостью;
+ -o-переход: все 0,5 с легкостью;
+ -мс-переход:все 0,5 с легкость;
+ -moz-переход:все 0,5 с легкостью;
+ предыстория: #00ADE4;
+}
+.block-top-auth {
+ширина: 100px;
+ поплавок: левый;
+ поле слева: 40px;
+ высота: 80px;
+}
+.block-top-auth p {
+ margin-top: 12px;
+ выравнивание текста: по центру;
+ маржа-дно: 8px;
+ 
+}
+.block-top-auth a {
+ оформление текста: нет;
+ цвет: белый;
+ семейство шрифтов: "Exo2-Medium", sans-serif;
+ размер шрифта: 15px;
+ оформление текста: подчеркивание;
+ курсор: указатель;
+}
+.block-top-auth a:hover {
+transition: all 0.5 s ease;
+ -webkit-переход: все 0,5 с легкостью;
+ -o-переход: все 0,5 с легкостью;
+ -мс-переход:все 0,5 с легкость;
+ -moz-переход:все 0,5 с легкостью;
+ цвет: #00ADE4;
+}
